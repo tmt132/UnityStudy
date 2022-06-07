@@ -6,7 +6,7 @@ public class PlayerCtrl : MonoBehaviour
 {
     private Transform tr;
     private float moveSpeed = 10.0f;
-    public float turnSpeed = 80.0f;
+    private float turnSpeed = 720.0f;
 
     private float h => Input.GetAxis("Horizontal");
     private float v => Input.GetAxis("Vertical");
